@@ -1,0 +1,46 @@
+{
+  "name": "banking-bot-project",
+  "version": "1.0.1",
+  "description": "sit 725 project in trimester3",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha './unittesting/*.test.js'",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Banking-Bot-Project/Code.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Express",
+    "Materialize",
+    "Ajax",
+    "mongoDb",
+    "HTML",
+    "JS",
+    "CSS"
+  ],
+  "author": "Jay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://https://github.com/Banking-Bot-Project/Code/issues"
+  },
+  "homepage": "https://https://github.com/Banking-Bot-Project/Code#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "jsonpath": "^1.1.1",
+    "lodash.chunk": "^4.2.0",
+    "mongodb": "^4.12.1",
+    "request": "^2.88.2",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.2.0"
+  }
+}
